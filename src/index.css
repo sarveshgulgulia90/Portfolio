@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#050816;
+  color:white;
+  font-family:'Poppins',sans-serif;
+  overflow-x:hidden;
+}
+
+.gradient-text{
+  background:linear-gradient(to right,#00ffff,#9333ea);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
